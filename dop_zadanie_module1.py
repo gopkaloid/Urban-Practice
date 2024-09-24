@@ -5,3 +5,5 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students_new = list(students)
 students_new.sort()
 print(students_new)
+result = dict(zip(students_new, grades_))
+print(result)
